@@ -1,0 +1,24 @@
+{
+    "presets": [],
+    "env": {
+      "development": {
+        "plugins": []
+      }
+    },
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./src"],
+          "alias": {
+            "$Component": "./src/Component",
+            "$Config": "./src/Config",
+            "$Store": "./src/Store",
+            "$Utils": "./src/Utils",              
+            "$Container": "./src/Component",
+            "$Asstes": "./src/Assets",
+          }
+        }]
+    ]
+  }
+  
